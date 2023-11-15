@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { redirect } from 'react-router-dom';
 
 const LoginPage = () => {
     const [username, setUsername] = useState('');
