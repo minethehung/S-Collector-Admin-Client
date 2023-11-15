@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+i {
+  width: 30px;
+}
+
+.nav-item.active .nav-link {
+  color: #379237 !important;
+}
+
+.nav-item.active {
+  border-right: 5px solid #379237;
+}
+
+.nav-link {
+  color: #A3AED0 !important;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #4CAF50;
+  /* Change to your desired color */
+  border-color: #4CAF50;
+  /* Change to match the background color */
+}
+
+.seller-container {
+  margin-top: 30px;
+  height: 600px !important;
+  overflow: auto;
+  border-radius: 30px;
+}
+
+.small-badge {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 35px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.small-badge .title {
+  color: gray;
+  display: block;
+}
+
+.small-badge .content {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hidescroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidescroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
